@@ -1,5 +1,5 @@
 
-  export class Usuario {
+  export class Candidato {
     private nombre: string;
     private apellidos: string;
     private correoElectronico: string;
