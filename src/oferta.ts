@@ -5,6 +5,12 @@ class Oferta {
     private descripcion: string;
     private candidatos: Candidato[];
 
+    constructor(id: string, descripcion: string, candidatos: Candidato[] = []) {
+        this.id = id;
+        this.descripcion = descripcion;
+        this.candidatos = candidatos;
+    }
+
     obteneId(): string{
         return this.id;
     }
@@ -17,5 +23,4 @@ class Oferta {
         return this.candidatos;
     }
     
-  }
-  
+}
