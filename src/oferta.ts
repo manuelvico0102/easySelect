@@ -10,17 +10,5 @@ class Oferta {
         this.descripcion = descripcion;
         this.candidatos = candidatos;
     }
-
-    obteneId(): string{
-        return this.id;
-    }
-
-    obtenerDescripcion(): string{
-        return this.descripcion;
-    }
-
-    obtenerCandidatos(): Candidato[] {
-        return this.candidatos;
-    }
     
 }
