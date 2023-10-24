@@ -1,23 +1,25 @@
 
+  import { types } from "util";
+
   export class Candidato {
     private nombre: string;
     private apellidos: string;
     private correoElectronico: string;
     private telefono: string;
-    private disponibilidad: "baja" | "media" | "alta";
+    private disponibilidad: Disponibilidad;
 
-    private idiomas: { [idioma: string]: "B1" | "B2" | "C1" | "C2" | "Nativo"};
-    private lenguajesDeProgramacion: { [lenguaje: string]: "principiante" | "intermedio" | "avanzado" };
+    private idiomas: Idiomas;
+    private lenguajesDeProgramacion: LenguajesDeProgramacion;
 
     constructor(
       nombre: string,
       apellidos: string,
       correoElectronico: string,
       telefono: string,
-      disponibilidad: "baja" | "media" | "alta",
-      idiomas: { [idioma: string]: "B1" | "B2" | "C1" | "C2" | "Nativo" },
-      lenguajesDeProgramacion: { [lenguaje: string]: "principiante" | "intermedio" | "avanzado" }
-    ) {
+      disponibilidad: Disponibilidad,
+      idiomas: Idiomas,
+      lenguajesDeProgramacion: LenguajesDeProgramacion) 
+      {
       this.nombre = nombre;
       this.apellidos = apellidos;
       this.correoElectronico = correoElectronico;
