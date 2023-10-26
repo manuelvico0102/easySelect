@@ -1,15 +1,10 @@
-import { Candidato } from "./candidato";
-
-const fs = require('fs');
 
 class GestorCandidato {
     archivo: string;
-    candidato: Candidato;
+    datos: { [clave: string]: (archivo: string) => string } = {};
 
-    constructor(filePath: string, candidato: Candidato) {
+    constructor(filePath: string) {
         this.archivo = filePath;
-        this.candidato = candidato;
     }
-
 }
 
