@@ -1,0 +1,7 @@
+nombre: Alberto 
+apellidos: Pinas Torrente
+correoElectronico: albertico@correo.ugr.es
+telefono: 999789543
+disponibilidad: alta
+idiomas: Ingles:B2, Frances:B1
+lenguajesDeProgramacion: Python:avanzado, C++:intermedio, Java:principiante
