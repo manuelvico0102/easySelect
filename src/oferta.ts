@@ -1,4 +1,4 @@
-import { Candidato } from "./candidato";
+import { Candidato } from "./candidato.ts";
 
 class Oferta {
     private id: string;

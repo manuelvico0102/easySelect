@@ -1,5 +1,5 @@
 
-import type { Disponibilidad, NivelIdioma, NivelLenguajeProgramacion, Idiomas, LenguajesDeProgramacion } from './types';
+import type { Disponibilidad, NivelIdioma, NivelLenguajeProgramacion, Idiomas, LenguajesDeProgramacion } from './types.ts';
 
 export class Candidato {
     private nombre: string;
