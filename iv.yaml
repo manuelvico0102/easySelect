@@ -1,2 +1,5 @@
 lenguaje: TypeScript 
-entidad: src/candidato.ts
+entidad: src/oferta.ts
+automatizar:
+  fichero: deno.json
+  orden: deno task
