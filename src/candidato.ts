@@ -1,7 +1,7 @@
 
-  import { types } from "util";
+import type { Disponibilidad, NivelIdioma, NivelLenguajeProgramacion, Idiomas, LenguajesDeProgramacion } from './types';
 
-  export class Candidato {
+export class Candidato {
     private nombre: string;
     private apellidos: string;
     private correoElectronico: string;
@@ -28,4 +28,4 @@
       this.idiomas = idiomas;
       this.lenguajesDeProgramacion = lenguajesDeProgramacion;
     }
-  }
+}
