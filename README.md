@@ -15,10 +15,15 @@ de los datos del curriculum.
 ### Comprobación de la sintaxis
 
 Para comprobar la sintaxis de esta entidad y del resto del código será necesario
-ejecular la tarea check.
+ejecular el makefile puede hacerse de las siguientes formas:
 
 ```bash
-deno task check
+make check
+```
+o 
+
+```bash
+make
 ```
 
 ## Información adicional
