@@ -1,5 +1,5 @@
 lenguaje: TypeScript 
 entidad: src/candidato.ts
 automatizar:
-  fichero: deno.json
-  orden: deno task
+  fichero: makefile
+  orden: make check
