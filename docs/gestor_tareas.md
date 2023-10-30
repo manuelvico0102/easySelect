@@ -21,4 +21,4 @@ Por último, tenemos Deno Task un task runner para Deno. Este task runner es rel
 
 ## Elección del gestor de tareas
 
-Para mi proyecto he escogido Deno Task como gestor de tareas. Esto se debe en parte por la simplicidad ya que también usaremos el runtime Deno, pero también es debido a su continuo mantenimiento y popularidad creciente.
+Para mi proyecto he escogido Make como gestor de tareas. Esto se debe a que Make tiene una amplia gama de funcionalidades y es un gestor de tareas simple. Además, Make es un gestor de tareas que tiene una gran comunidad y da la confiabilidad de que a pesar de que pase tiempo funcionará.
