@@ -19,6 +19,7 @@ Node.js es el runtime más popular para TypeScript. Es un runtime multiplataform
     - No es un runtime seguro debido a su historia de vulnerabilidades.
     - No es un runtme rápido comparado con otros runtime como Deno o Bun.
     - Es un runtime que necesita un gestor de depenedencias externo como NPM.
+    - Es necesario convertir el código TypeScript a JavaScript, también se puede usar ts-node para evitar esto sin embargo ts-node no es compatible con todas las características de TypeScript, además afecta al rendimiento ya que se compila en tiempo de ejecución.
 
 ## SWC
 
@@ -31,7 +32,8 @@ SWC es un compilador de TypeScript y JavaScript escrito en Rust. Sin embargo, ta
 - Desventajas:
     - No es tan popular como Node.js por lo que no tiene una comunidad tan grande.
     - Es un runtime que necesita un gestor de dependencias externo.
-
+    - Igual que ocurría con Node.js, SWC necesita convertir el código TypeScript a JavaScript.
+    
 ## Bun
 
 Bun es un runtime para TypeScript escrito en Rust. Es un proyecto de código abierto y multiplataforma.
@@ -54,13 +56,14 @@ Deno es un runtime para TypeScript diseñado para ser seguro. Deno admite TypeSc
     - Es un runtime moderno construido sobre las últimas versiones de V8 y Rust. Y es un runtime hasta la fecha que esta activamente mantenido.
     - Deno es un runtime diseñado para ser rápido y eficiente, sin embargo no es tan rápido como Bun.
     - Deno no necesita un gestor de dependencias ya que puede importar módulos por URL.
+    - Es un runtime que inmediatamente soporta TypeScript sin necesidad de transpilarlo a JavaScript.
 
 - Desventajas:
     - En Deno no hay tantas bibliotecas o frameworks disponibles como en Node.js.
 
 ## Elección del runtime
 
-Para mi proyecto he escogido Deno como runtime. Esto se ha debido a que Deno es un runtime moderno, seguro y eficiente. Además, Deno no necesita un gestor de dependencias externo. Por último, Deno es un runtime que está activamente mantenido y tiene una comunidad activa.
+Para mi proyecto he escogido Deno como runtime. Esto se ha debido a que Deno es un runtime moderno, seguro y eficiente. Además, Deno no necesita un gestor de dependencias externo. Aunque hay otros runtimes que también cumplen esto he escogido Done porque es un runtime que inmediatamente soporta TypeScript sin necesidad de transpilarlo a JavaScript, facilitando el desarrollo del proyecto, y así evitar exceso de archivos en el proyecto.
 
 
 
