@@ -1,69 +1,61 @@
 # Runtime
 
+## Criterios de decisión
+
+Para elegir las diferentes herramientas para nuestro proyecto tendremos que tener en cuenta una seria de criterios que seran los siguientes:
+
+- **Simplicidad**: La herramienta debe ser fácil de usar y de entender. Y se tendrá en cuenta su comunidad para el caso de tener que resolver problemas.
+
+- **Soporte TypeScript**: La herramienta debe ser compatible con el lenguaje de programación que estamos utilizando en nuestro caso TypeScript.
+
+- **Estabilidad**: La herramienta debe ser estable y no tener fallos.
+
+## Runtimes
+
 Un runtime en pocas palabras y simplificado es un programa que interpreta código fuente y lo ejecuta. Para el desarrollo de nuestro proyecto se ha elegido el lenguaje de programación de TypeScript por lo que se puede optar por diferentes runtimes. Entre los runtimes para TypeScript se pueden encontrar los siguientes:
 
 - [Node.js](https://nodejs.org/en/)
-- [SWC](https://swc.rs/)
 - [Bun](https://bun.sh/)
 - [Deno](https://deno.com/)
 
-## Node.js
+### Node.js
 
 Node.js es el runtime más popular para TypeScript. Es un runtime multiplataforma y de código abierto que se ejecuta en diferentes sistemas operativos. Node.js utiliza el motor de JavaScript V8 de Google para ejecutar código JavaScript. Además utiliza el ecosistema de paquete NPM.
 
 - Ventajas:
-    - Compatibilidad con gran cantidad de bibliotecas y frameworks debido a su popularidad.
-    - Comunidad muy activa, facilitando la busqueda de soluciones a problemas.
+    - Tiene soporte para TypeScript y una gran comunidad para ayudar a resolver problemas.
+    - Node al ser un runtime desarrollado en 2009 es maduro y estable.
 
 - Desventajas:
-    - No es un runtime seguro debido a su historia de vulnerabilidades.
-    - No es un runtme rápido comparado con otros runtime como Deno o Bun.
-    - Es un runtime que necesita un gestor de depenedencias externo como NPM.
-    - Es necesario convertir el código TypeScript a JavaScript, también se puede usar ts-node para evitar esto sin embargo ts-node no es compatible con todas las características de TypeScript, además afecta al rendimiento ya que se compila en tiempo de ejecución.
+    - Dependencias: Node.js necesita un gestor de dependencias externo como NPM o Yarn.
 
-## SWC
+### Bun
 
-SWC es un compilador de TypeScript y JavaScript escrito en Rust. Sin embargo, también puede utilizarse como runtime para TypeScript. SWC es un proyecto de código abierto y multiplataforma. 
+Bun es un runtime, que puede usarse para TypeScript y otros, escrito en Rust.
 
 - Ventajas:
-    - Es un runtime muy rápido comparado con otros runtimes como Node.js.
-    - Es un runtime tiene una alta seguridad debido a que está escrito en Rust.
+    - Tiene soporte para TypeScript.
+    - Bun no necesita un gestor de dependencias externo, ya que tiene uno integrado llamado Bunx.
 
 - Desventajas:
-    - No es tan popular como Node.js por lo que no tiene una comunidad tan grande.
-    - Es un runtime que necesita un gestor de dependencias externo.
-    - Igual que ocurría con Node.js, SWC necesita convertir el código TypeScript a JavaScript.
-    
-## Bun
+    - Bun es relativamente nuevo, por lo que no tiene una comunidad tan extensa como Node.js.
+    - Bun es un runtime relativamente nuevo, por lo que puede tener fallos.
 
-Bun es un runtime para TypeScript escrito en Rust. Es un proyecto de código abierto y multiplataforma.
+### Deno
 
-- Ventajas:
-    - Es un runtime diseñado para ser rápido siendo el más rápido de los runtime descritos.
-    - Bun no necesita un gestor de dependencias externo.
-
-- Desventajas:
-    - Bun es relativamente nuevo, por lo que no hay tantas bibliotecas o frameworks disponibles con este runtime.
-    - Bun tiene una comunidad pequeña.
-    - Bun actualmente se encuentra en desarrollo, por lo que no es un runtime estable.
-
-## Deno
-
-Deno es un runtime para TypeScript diseñado para ser seguro. Deno admite TypeScript sin necesidad de transpilarlo a JavaScript. 
+Deno es un runtime, para TypeScript, JavaScript, Go y otros más, diseñado para ser seguro.
 
 - Ventajas:
-    - Es un runtime diseñado para ser seguro. Por ejemplo, solo permite carga de módulos de fuentes fiables.
-    - Es un runtime moderno construido sobre las últimas versiones de V8 y Rust. Y es un runtime hasta la fecha que esta activamente mantenido.
-    - Deno es un runtime diseñado para ser rápido y eficiente, sin embargo no es tan rápido como Bun.
     - Deno no necesita un gestor de dependencias ya que puede importar módulos por URL.
     - Es un runtime que inmediatamente soporta TypeScript sin necesidad de transpilarlo a JavaScript.
 
 - Desventajas:
-    - En Deno no hay tantas bibliotecas o frameworks disponibles como en Node.js.
+    - Deno no es un runtime tan popular como Node.js, por lo que no tiene una comunidad tan grande como Node.js.
+    - Deno es un runtime moderno, aunque no es tan maduro como Node.js.
 
 ## Elección del runtime
 
-Para mi proyecto he escogido Deno como runtime. Esto se ha debido a que Deno es un runtime moderno, seguro y eficiente. Además, Deno no necesita un gestor de dependencias externo. Aunque hay otros runtimes que también cumplen esto he escogido Done porque es un runtime que inmediatamente soporta TypeScript sin necesidad de transpilarlo a JavaScript, facilitando el desarrollo del proyecto, y así evitar exceso de archivos en el proyecto.
+Para mi proyecto he escogido Node.js como runtime. Esto se ha debido a que Node.js es un runtime estable. Además tiene una gran comunidad que puede ayudar a resolver problemas.
 
 
 
