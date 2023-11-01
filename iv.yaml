@@ -1,5 +1,5 @@
 lenguaje: TypeScript 
 entidad: src/candidato.ts
 automatizar:
-  fichero: makefile
-  orden: make check
+  fichero: package.json
+  orden: npm run
