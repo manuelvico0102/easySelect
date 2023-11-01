@@ -1,0 +1,11 @@
+{
+    "name": "easyselect",
+    "version": "0.0.1",
+    "dependencies": {
+    },
+    "scripts": {
+        "check": "tsc --noEmit src/oferta.ts src/gestorCandidato.ts",
+        "build": "tsc",
+        "start": "node dist/oferta.js"
+    }
+}
