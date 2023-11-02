@@ -6,11 +6,11 @@ Despues de haber elegido un runtime, en mi caso Node.js, necesitamos un gestor d
 
 Para elegir el gestor de dependencias para nuestro proyecto tendremose en cuenta los siguientes criterios:
 
-- ** Soporte: ** El gestor de dependencias debe tener soporte para el runtime que hemos elegido, en nuestro caso Node.js.
+- **Soporte:** El gestor de dependencias debe tener soporte para el runtime que hemos elegido, en nuestro caso Node.js.
 
-- ** Simplicidad: ** El gestor de dependencias debe ser fácil de usar y de entender.
+- **Simplicidad:** El gestor de dependencias debe ser fácil de usar y de entender.
 
-- ** Comunidad: ** El gestor de dependencias debe tener una comunidad que pueda ayudar a resolver problemas.
+- **Comunidad:** El gestor de dependencias debe tener una comunidad que pueda ayudar a resolver problemas.
 
 ## Gestores de dependencias
 
