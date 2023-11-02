@@ -1,20 +1,11 @@
 {
-  "name": "easyselect",
-  "version": "1.0.0",
-  "description": "## Descripción del problema",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "tsc": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.8.7",
-    "typescript": "^5.2.2"
-  }
+    "name": "easyselect",
+    "version": "0.0.1",
+    "dependencies": {
+    },
+    "scripts": {
+        "check": "tsc --noEmit src/oferta.ts src/gestorCandidato.ts",
+        "build": "tsc",
+        "start": "node dist/oferta.js"
+    }
 }

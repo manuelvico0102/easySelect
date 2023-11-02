@@ -1,2 +1,5 @@
 lenguaje: TypeScript 
 entidad: src/candidato.ts
+automatizar:
+  fichero: package.json
+  orden: npm run
