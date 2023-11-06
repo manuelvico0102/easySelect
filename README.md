@@ -21,6 +21,15 @@ ejecular la tarea check puede hacerse de las siguientes formas:
 npm run check
 ```
 
+### Ejecución de los test
+
+Para ejecutar los test para la extracción de datos de los curriculum se puede
+hacer de la siguiente manera:
+
+```bash
+npm run test
+```
+
 ## Información adicional
 
 [Historias de usuario](./docs/historias_usuario.md)
@@ -34,4 +43,6 @@ npm run check
 [Gestor de dependencias](./docs/gestor_dependencias.md)
 
 [Gestor de tareas](./docs/gestor_tareas.md)
+
+[Herramientas de Test](./docs/herramientas_test.md)
 
