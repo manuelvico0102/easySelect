@@ -4,8 +4,6 @@
 
 Para elegir las diferentes herramientas para nuestro proyecto tendremos que tener en cuenta una seria de criterios que seran los siguientes:
 
-- **Simplicidad**: La herramienta debe ser fácil de usar y de entender.
-
 - **Compatibilidad**: La herramienta debe ser compatible con el lenguaje de programación que estamos utilizando en nuestro caso TypeScript.
 
 - **Comunidad**: La herramienta debe tener una comunidad que pueda ayudar a resolver problemas.
@@ -21,7 +19,7 @@ Necesitamos elegir herramientas de test para nuestro proyecto. Para ello será n
 
 - [Chai](https://www.chaijs.com/): Chai es una biblioteca de aserciones para Node.js y el navegador. Chai tiene una sintaxis legible y es fácil de usar.
 
-- [Jest](https://jestjs.io/): Jest es realmente un framework, sin embargo viene incluido con una biblioteca de aserciones siendo esta jest-snapshot.
+- [Jest](https://jestjs.io/): Jest es realmente un framework, sin embargo viene incluido con una biblioteca de aserciones.
 
 - [Should.js](https://shouldjs.github.io/): Should.js es una biblioteca de aserciones para Node.js y el navegador. Should.js tiene una sintaxis limpia y fácil de usar. Sin embargo no tienen una comunidad tan grande como otras bibliotecas de aserciones.
 
