@@ -1,0 +1,7 @@
+nombre: Carlos
+apellidos: Sanchez Perez
+correoElectronico: carlos_sanchez@gmail.com
+telefono: 666777888
+disponibilidad: media
+idiomas: Ingles:B1, Frances:B2, Aleman:Nativo
+lenguajesDeProgramacion:

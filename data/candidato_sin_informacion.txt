@@ -1,0 +1,7 @@
+nombre:
+apellidos:
+correoElectronico:
+telefono:
+disponibilidad:
+idiomas:
+lenguajesDeProgramacion:

@@ -1,0 +1,7 @@
+nombre: María 
+apellidos: Pozas Alarcon
+correoElectronico: mariaPozas@hotmail.com
+telefono: 644959910
+disponibilidad: baja
+idiomas:
+lenguajesDeProgramacion: Python:intermedio, C++:principiante, Ruby:avanzado, Java:intermedio
