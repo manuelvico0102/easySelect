@@ -25,7 +25,6 @@ export class GestorCandidato {
         const apellidos = candidatoData['apellidos'] || '';
         const correoElectronico = candidatoData['correoElectronico'] || '';
         const telefono = candidatoData['telefono'] || '';
-        const disponibilidad = candidatoData['disponibilidad'] as "baja" | "media" | "alta" || "";
 
         const idiomasData = (candidatoData['idiomas'] || '').split(', ');
         const idiomas: { [key: string]: "B1" | "B2" | "C1" | "C2" | "Nativo" } = {};
@@ -41,7 +40,7 @@ export class GestorCandidato {
             lenguajesDeProgramacion[lenguaje] = nivel as "principiante" | "intermedio" | "avanzado";
         });
 
-        return new Candidato(nombre, apellidos, correoElectronico, telefono, disponibilidad, idiomas, lenguajesDeProgramacion);
+        return new Candidato(nombre, apellidos, correoElectronico, telefono, idiomas, lenguajesDeProgramacion);
     }
 
 }
