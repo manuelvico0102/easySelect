@@ -25,37 +25,4 @@ export class Candidato {
       this.idiomas = idiomas;
       this.lenguajesDeProgramacion = lenguajesDeProgramacion;
     }
-
-    getNombre(): string {
-      return this.nombre;
-    }
-
-    getApellidos(): string {
-      return this.apellidos;
-    }
-
-    getCorreoElectronico(): string {
-      return this.correoElectronico;
-    }
-
-    getTelefono(): string {
-      return this.telefono;
-    }
-
-    getIdiomas(): Idiomas {
-      return this.idiomas;
-    }
-
-    getLenguajesDeProgramacion(): LenguajesDeProgramacion {
-      return this.lenguajesDeProgramacion;
-    }
-
-    getNivelIdioma(idioma: string): NivelIdioma {
-      return this.idiomas[idioma];
-    }
-
-    getNivelLenguajeProgramacion(lenguaje: string): NivelLenguajeProgramacion {
-      return this.lenguajesDeProgramacion[lenguaje];
-    }
-
 }
