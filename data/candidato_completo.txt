@@ -7,19 +7,19 @@ Información personal
 
 Nombre
 
-Gamez Luque, María
+Vico Arboledas, Manuel
 Dirección
 
 [ Número, calle, código postal, localidad, país ]
 Teléfono
 
-953123456
+644869564
 Fax
 
 
 Correo electrónico
 
-marialuque12@hotmail.es
+manuel.vico0102@gmail.com
 
 Nacionalidad
 
@@ -73,22 +73,35 @@ Adquiridas a lo largo de la vida y la carrera educativa y profesional, pero no n
 
 Lengua materna
 
-
+Español
 
 otros idiomas
 
 
 
-
+Inglés
 • Lectura
 
-
+B2
 • Escritura
 
-
+B2
 • Expresión oral
 
+B2
 
+
+
+Francés
+• Lectura
+
+C1
+• Escritura
+
+C2
+• Expresión oral
+
+B1
 
 Capacidades y aptitudes sociales
 Vivir y trabajar con otras personas, en entornos multiculturales, en puestos donde la comunicación es importante y en situaciones donde el trabajo en equipo resulta esencial (por ejemplo, cultura y deportes), etc.
@@ -104,9 +117,8 @@ Capacidades y aptitudes técnicas
 Con ordenadores, tipos específicos de equipos, maquinaria, etc.
 
 Python: avanzado
-Ruby: principiante
-C++: avanzado
-JavaScript: intermedio
+C++: intermedio
+Java: principiante
 
 Capacidades y aptitudes artísticas
 Música, escritura, diseño, etc.

@@ -7,19 +7,19 @@ Información personal
 
 Nombre
 
-Gamez Luque, María
+
 Dirección
 
 [ Número, calle, código postal, localidad, país ]
 Teléfono
 
-953123456
+
 Fax
 
 
 Correo electrónico
 
-marialuque12@hotmail.es
+
 
 Nacionalidad
 
@@ -103,10 +103,7 @@ Por ejemplo, coordinación y administración de personas, proyectos, presupuesto
 Capacidades y aptitudes técnicas
 Con ordenadores, tipos específicos de equipos, maquinaria, etc.
 
-Python: avanzado
-Ruby: principiante
-C++: avanzado
-JavaScript: intermedio
+
 
 Capacidades y aptitudes artísticas
 Música, escritura, diseño, etc.

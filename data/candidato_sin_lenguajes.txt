@@ -1,7 +1,156 @@
-nombre: Carlos
-apellidos: Sanchez Perez
-correoElectronico: carlos_sanchez@gmail.com
-telefono: 666777888
-disponibilidad: media
-idiomas: Ingles:B1, Frances:B2, Aleman:Nativo
-lenguajesDeProgramacion:
+﻿
+ANEXO II
+
+
+
+Información personal
+
+Nombre
+
+Sanchez García, Carlos 
+Dirección
+
+[ Número, calle, código postal, localidad, país ]
+Teléfono
+
+666777888
+Fax
+
+
+Correo electrónico
+
+carlos_garcia@correo.ugr.es
+
+Nacionalidad
+
+
+
+Fecha de nacimiento
+
+[ Día, mes, año ]
+
+
+experiencia laboral
+	
+• Fechas (de – a)
+
+ [ Empezar por el más reciente e ir añadiendo aparte la misma información para cada puesto ocupado. ]
+• Nombre y dirección del empleador
+
+
+• Tipo de empresa o sector
+
+
+• Puesto o cargo ocupados
+
+
+• Principales actividades y responsabilidades
+
+
+
+
+Educación y formación
+
+• Fechas (de – a)
+
+[ Empezar por el más reciente e ir añadiendo aparte la misma información para cada curso realizado. ]
+• Nombre y tipo de organización que ha impartido la educación o la formación
+
+
+• Principales materias o capacidades ocupacionales tratadas
+
+
+• Título de la cualificación obtenida
+
+
+• (Si procede) Nivel alcanzado en la clasificación nacional
+
+
+
+
+Capacidades y aptitudes personales
+Adquiridas a lo largo de la vida y la carrera educativa y profesional, pero no necesariamente avaladas por certificados y diplomas oficiales.
+
+Lengua materna
+
+Inglés
+
+otros idiomas
+
+
+
+Español
+• Lectura
+
+C2
+• Escritura
+
+C1
+• Expresión oral
+
+C1
+
+
+
+Francés
+• Lectura
+
+B2
+• Escritura
+
+B2
+• Expresión oral
+
+B1
+
+
+
+Alemán
+• Lectura
+
+C1
+• Escritura
+
+B2
+• Expresión oral
+
+C1
+
+Capacidades y aptitudes sociales
+Vivir y trabajar con otras personas, en entornos multiculturales, en puestos donde la comunicación es importante y en situaciones donde el trabajo en equipo resulta esencial (por ejemplo, cultura y deportes), etc.
+
+[ Describirlas e indicar dónde se adquirieron. ]
+
+Capacidades y aptitudes organizativas
+Por ejemplo, coordinación y administración de personas, proyectos, presupuestos; en el trabajo, en labores de voluntariado (por ejemplo, cultura y deportes), en el hogar, etc.
+
+[ Describirlas e indicar dónde se adquirieron. ]
+
+Capacidades y aptitudes técnicas
+Con ordenadores, tipos específicos de equipos, maquinaria, etc.
+
+
+
+Capacidades y aptitudes artísticas
+Música, escritura, diseño, etc.
+
+[ Describirlas e indicar dónde se adquirieron. ]
+
+Otras capacidades y aptitudes
+Que no se hayan nombrado anteriormente.
+
+[ Describirlas e indicar dónde se adquirieron. ]
+
+Permiso(s) de conducción
+
+
+
+Información adicional
+
+[ Introducir aquí cualquier información que se considere importante, como personas de contacto, referencias, etc. ]
+
+
+Anexos
+
+[ Enumerar los documentos anexos. ]
+
