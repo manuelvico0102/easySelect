@@ -71,6 +71,27 @@ export class GestorCandidato {
         return idiomasNormalizados;
     }
 
+    private elegirNivelIdioma(lectura: string, escritura: string, oral: string): NivelIdioma {
+        const niveles: { [key: string]: number } = {
+            'C2': 4,
+            'C1': 3,
+            'B2': 2,
+            'B1': 1,
+        };
+      
+        const nivelesArray = [lectura, escritura, oral];
+      
+        let nivelMinimo = nivelesArray[0];
+      
+        for (const nivel of nivelesArray) {
+            if (niveles[nivel] < niveles[nivelMinimo]) {
+                nivelMinimo = nivel;
+            }
+        }
+      
+        return nivelMinimo as NivelIdioma;
+      }
+
     private extraerLenguajesDeProgramacion(data: string): LenguajesDeProgramacion {
         const regex = /([A-Za-z+]+): (\w+)/g;
         const lenguajesDeProgramacion: LenguajesDeProgramacion = {};
