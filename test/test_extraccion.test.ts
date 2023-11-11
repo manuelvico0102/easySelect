@@ -4,28 +4,31 @@ import { GestorCandidato } from "../src/gestorCandidato";
 describe("Extracción de datos de candidato", () => {
   it("Extracción completa de datos", () => {
     // Creación de un objeto GestorCandidato
-    const gestorCandidato = new GestorCandidato("data/datos.txt");
+    const gestorCandidato = new GestorCandidato("data/candidato_completo.txt");
 
     // Extracción de los datos del archivo
     const candidato = gestorCandidato.extraerCandidato();
 
     // Verificación de los datos
-    expect(candidato.getNombre()).toBe("Alberto");
-    expect(candidato.getApellidos()).toBe("Pinas Torrente");
-    expect(candidato.getCorreoElectronico()).toBe("albertico@correo.ugr.es");
-    expect(candidato.getTelefono()).toBe("999789543");
-    expect(candidato.getDisponibilidad()).toBe("alta");
-    expect(candidato.getIdiomas()).toEqual({
-      "Ingles": "B2",
-      "Frances": "B1"
-    });
-    expect(candidato.getLenguajesDeProgramacion()).toEqual({
-      "Python": "avanzado",
-      "C++": "intermedio",
-      "Java": "principiante"
-    });
+    const candidatoEsperado = new Candidato(
+      'Manuel',
+      'Vico Arboledas',
+      'manuel.vico0102@gmail.com',
+      '644869564',
+      {
+        'Español': 'Nativo',
+        'Inglés': 'B2',
+        'Francés': 'B1',
+      },
+      {
+        'Python': 'avanzado',
+        'C++': 'intermedio',
+        'Java': 'principiante',
+      },
+    );
+    expect(candidato).toEqual(candidatoEsperado)
   });
-
+  
   it("Extracción de datos incompleta, candidato sin idiomas", () => {
     // Creación de un objeto GestorCandidato
     const gestorCandidato = new GestorCandidato("data/candidato_sin_idiomas.txt");
@@ -34,18 +37,20 @@ describe("Extracción de datos de candidato", () => {
     const candidato = gestorCandidato.extraerCandidato();
 
     // Verificación de los datos
-    expect(candidato.getNombre()).toBe("María");
-    expect(candidato.getApellidos()).toBe("Pozas Alarcon");
-    expect(candidato.getCorreoElectronico()).toBe("mariaPozas@hotmail.com");
-    expect(candidato.getTelefono()).toBe("644959910");
-    expect(candidato.getDisponibilidad()).toBe("baja");
-    expect(candidato.getIdiomas()).toEqual({});
-    expect(candidato.getLenguajesDeProgramacion()).toEqual({
-      "Python": "intermedio",
-      "C++": "principiante",
-      "Ruby": "avanzado",
-      "Java": "intermedio"
-    });
+    const candidatoEsperado = new Candidato(
+      'María',
+      'Gamez Luque',
+      'marialuque12@hotmail.es',
+      '953123456',
+      {},
+      {
+        'Python': 'avanzado',
+        'Ruby': 'principiante',
+        'C++': 'avanzado',
+        'JavaScript': 'intermedio',
+      },
+    );
+    expect(candidato).toEqual(candidatoEsperado)
   });
 
   it("Extracción de datos incompleta, candidato sin lenguajes de programacion", () => {
@@ -56,34 +61,39 @@ describe("Extracción de datos de candidato", () => {
     const candidato = gestorCandidato.extraerCandidato();
 
     // Verificación de los datos
-    expect(candidato.getNombre()).toBe("Carlos");
-    expect(candidato.getApellidos()).toBe("Sanchez Perez");
-    expect(candidato.getCorreoElectronico()).toBe("carlos_sanchez@gmail.com");
-    expect(candidato.getTelefono()).toBe("666777888");
-    expect(candidato.getDisponibilidad()).toBe("media");
-    expect(candidato.getIdiomas()).toEqual({
-      "Ingles": "B1",
-      "Frances": "B2",
-      "Aleman": "Nativo"
-    });
-    expect(candidato.getLenguajesDeProgramacion()).toEqual({});
+    const candidatoEsperado = new Candidato(
+      'Carlos',
+      'Sanchez García',
+      'carlos_garcia@correo.ugr.es',
+      '666777888',
+      {
+        'Inglés': 'Nativo',
+        'Español': 'C1',
+        'Francés': 'B1',
+        'Alemán': 'B2'
+      },
+      {},
+    );
+    expect(candidato).toEqual(candidatoEsperado)
   });
 
   it("Extracción de datos incompleta, candidato sin informacion", () => {
     // Creación de un objeto GestorCandidato
-    const gestorCandidato = new GestorCandidato("data/candidato_sin_informacion.txt");
+    const gestorCandidato = new GestorCandidato("data/candidato_vacio.txt");
 
     // Extracción de los datos del archivo
     const candidato = gestorCandidato.extraerCandidato();
 
     // Verificación de los datos
-    expect(candidato.getNombre()).toBe("");
-    expect(candidato.getApellidos()).toBe("");
-    expect(candidato.getCorreoElectronico()).toBe("");
-    expect(candidato.getTelefono()).toBe("");
-    expect(candidato.getDisponibilidad()).toBe("");
-    expect(candidato.getIdiomas()).toEqual({});
-    expect(candidato.getLenguajesDeProgramacion()).toEqual({});
+    const candidatoEsperado = new Candidato(
+      '',
+      '',
+      '',
+      '',
+      {},
+      {},
+    );
+    expect(candidato).toEqual(candidatoEsperado)
   });
-
+  
 });
