@@ -13,8 +13,8 @@ describe("Extracción de datos de candidato", () => {
     const candidatoEsperado = new Candidato(
       'Manuel',
       'Vico Arboledas',
-      'manuel.vico0102@gmail.com',
-      '644869564',
+      'manuel.vico123456@gmail.com',
+      '644111000',
       {
         'Español': 'Nativo',
         'Inglés': 'B2',
