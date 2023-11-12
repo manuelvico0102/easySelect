@@ -6,7 +6,7 @@ Para elegir las diferentes herramientas para nuestro proyecto tendremos que tene
 
 - **Compatibilidad**: La herramienta debe ser compatible con el lenguaje de programación que estamos utilizando en nuestro caso TypeScript.
 
-- **Comunidad**: La herramienta debe tener una comunidad que pueda ayudar a resolver problemas.
+- **Valoración**: Se tendrá en cuenta la valoración que tiene la herramienta en [Snyk Advisor](https://snyk.io/advisor)
 
 - **Híbrido**: Se tendrá en cuenta que la herramienta tenga biblioteca para aserciones así como el test runner.
 
@@ -17,19 +17,17 @@ Necesitamos elegir herramientas de test para nuestro proyecto. Para ello será n
 
 ### Aserciones
 
-- [Chai](https://www.chaijs.com/): Chai es una biblioteca de aserciones para Node.js y el navegador. Chai tiene una sintaxis legible y es fácil de usar.
+- [Chai](https://www.chaijs.com/): Chai es una biblioteca de aserciones para Node.js. Tiene una valoración de 97.
 
-- [Jest](https://jestjs.io/): Jest es realmente un framework, sin embargo viene incluido con una biblioteca de aserciones.
-
-- [Should.js](https://shouldjs.github.io/): Should.js es una biblioteca de aserciones para Node.js y el navegador. Should.js tiene una sintaxis limpia y fácil de usar. Sin embargo no tienen una comunidad tan grande como otras bibliotecas de aserciones.
+- [Should.js](https://shouldjs.github.io/): Should.js es una biblioteca de aserciones para Node.js. Tiene una valoración de 61.
 
 ### Test runners o frameworks
 
-- [Jest](https://jestjs.io/): Jest es un test runner para JavaScript y TypeScript, entre otros. Como se ha mencionado anteriormente Jest viene con una biblioteca de aserciones por lo que no es necesario la instalación de una. Es compatible con TypeScript y tiene una gran comunidad.
+- [Jest](https://jestjs.io/): Jest es un testing framework para JavaScript y TypeScript, entre otros. Jest viene con una biblioteca de aserciones por lo que no es necesario la instalación de una. Su valoración es de 92.
 
-- [Mocha](https://mochajs.org/): Mocha es un test runner para Node.js, compatible con TypeScript. Además, Mocha es un framework flexible y extensible. Sin embargo, es necesario instalar una biblioteca de aserciones para poder utilizar Mocha, normalmente se utiliza Chai. Por último, Mocha tiene una gran comunidad, pero no es tan amplia como la de Jest.
+- [Mocha](https://mochajs.org/): Mocha es un test runner para Node.js, compatible con TypeScript. Además, Mocha es un framework flexible y extensible. Sin embargo, es necesario instalar una biblioteca de aserciones para poder utilizar Mocha, normalmente se utiliza Chai. Su puntuación es de 87.
 
-- [AVA](https://github.com/avajs/ava): AVA es un test runner con soporte para TypeScript. Además cuenta con una biblioteca de aserciones integrada, sin embargo es una biblioteca simple. Sin embargo, tiene una pequeña comunidad comparada con Jest y Mocha.
+- [AVA](https://github.com/avajs/ava): AVA es un test runner con soporte para TypeScript. Además cuenta con una biblioteca de aserciones integrada, sin embargo es una biblioteca simple. Su valoración es de 94.
 
 
 ### CLI
@@ -38,6 +36,5 @@ Para ejecutar los test necesitamos un CLI, sin embargo los test runners menciona
 
 ## Elección de las herramientas de test
 
-Finalmente, para mi proyecto he escogido Jest como test runner. Esto se debe a que Jest es un test runner que viene con una biblioteca de aserciones, por lo que no es necesario instalar una biblioteca de aserciones externa. Además, Jest es compatible con TypeScript y tiene una gran comunidad que puede ayudar a resolver problemas.
-
+Finalmente, para mi proyecto he escogido Jest como test runner. Esto se debe a que Jest es un framework que viene con una biblioteca de aserciones, por lo que no es necesario instalar una biblioteca de aserciones externa. Además, Jest es compatible con TypeScript y tiene una valoración alta en Snyk Advisor.
 
