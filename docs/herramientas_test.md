@@ -23,10 +23,10 @@ Necesitamos elegir herramientas de test para nuestro proyecto. Para ello será n
 
 Hay otras bibliotecas de aserciones, sin embargo como tienen una valoración baja no se tendrán en cuenta, como por ejemplo: 
 - [assertive](https://github.com/groupon/assertive): con una valoración de 49.
-- [should.js](https://shouldjs.github.io/): con una valoración de 61 y además ya no esta mantenido.
+- [should.js](https://shouldjs.github.io/): con una valoración de 61 y además ya no está mantenido.
 - [earl](https://earl.fun/): con una valoración de 70 y es una biblioteca para TypeScript.
-- [typed-assert](https://github.com/elierotenberg/typed-assert): con una valoración de 65, es una biblioteca para TypeScript y ya no esta en mantenimiento.
-- [assertive-ts ](https://github.com/stackbuilders/assertive-ts): con una valoración de 48, es una biblioteca para TypeScript y tampoco esta en mantenimiento.
+- [typed-assert](https://github.com/elierotenberg/typed-assert): con una valoración de 65, es una biblioteca para TypeScript y ya no tiene mantenimiento.
+- [assertive-ts ](https://github.com/stackbuilders/assertive-ts): con una valoración de 48, es una biblioteca para TypeScript y tampoco tiene mantenimiento.
 
 ### Test runners o frameworks
 
