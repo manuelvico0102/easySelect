@@ -5,10 +5,10 @@ import { expect, describe, it } from 'vitest';
 describe("Extracción de datos de candidato", () => {
   it("Extracción completa de datos", () => {
     // Creación de un objeto GestorCandidato
-    const gestorCandidato = new GestorCandidato("data/candidato_completo.txt");
+    const gestorCandidato = new GestorCandidato();
 
     // Extracción de los datos del archivo
-    const candidato = gestorCandidato.extraerCandidato();
+    const candidato = gestorCandidato.extraerCandidato("data/candidato_completo.txt");
 
     // Verificación de los datos
     const candidatoEsperado = new Candidato(
@@ -32,10 +32,10 @@ describe("Extracción de datos de candidato", () => {
   
   it("Extracción de datos incompleta, candidato sin idiomas", () => {
     // Creación de un objeto GestorCandidato
-    const gestorCandidato = new GestorCandidato("data/candidato_sin_idiomas.txt");
+    const gestorCandidato = new GestorCandidato();
 
     // Extracción de los datos del archivo
-    const candidato = gestorCandidato.extraerCandidato();
+    const candidato = gestorCandidato.extraerCandidato("data/candidato_sin_idiomas.txt");
 
     // Verificación de los datos
     const candidatoEsperado = new Candidato(
@@ -56,10 +56,10 @@ describe("Extracción de datos de candidato", () => {
 
   it("Extracción de datos incompleta, candidato sin lenguajes de programacion", () => {
     // Creación de un objeto GestorCandidato
-    const gestorCandidato = new GestorCandidato("data/candidato_sin_lenguajes.txt");
+    const gestorCandidato = new GestorCandidato();
 
     // Extracción de los datos del archivo
-    const candidato = gestorCandidato.extraerCandidato();
+    const candidato = gestorCandidato.extraerCandidato("data/candidato_sin_lenguajes.txt");
 
     // Verificación de los datos
     const candidatoEsperado = new Candidato(
@@ -80,10 +80,10 @@ describe("Extracción de datos de candidato", () => {
 
   it("Extracción de datos incompleta, candidato sin informacion", () => {
     // Creación de un objeto GestorCandidato
-    const gestorCandidato = new GestorCandidato("data/candidato_vacio.txt");
+    const gestorCandidato = new GestorCandidato();
 
     // Extracción de los datos del archivo
-    const candidato = gestorCandidato.extraerCandidato();
+    const candidato = gestorCandidato.extraerCandidato("data/candidato_vacio.txt");
 
     // Verificación de los datos
     const candidatoEsperado = new Candidato(
