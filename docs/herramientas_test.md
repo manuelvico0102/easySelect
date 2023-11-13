@@ -19,7 +19,7 @@ Necesitamos elegir herramientas de test para nuestro proyecto. Para ello será n
 
 - [Chai](https://www.chaijs.com/): Chai es una biblioteca de aserciones para Node.js. Tiene una valoración de 97.
 
-- [Should.js](https://shouldjs.github.io/): Should.js es una biblioteca de aserciones para Node.js. Tiene una valoración de 61.
+Hay otras bibliotecas de aserciones, sin embargo como tienen una valoración baja no se tendrán en cuenta, como por ejemplo: assertive (valoración de 49) o should.js (valoración de 61).
 
 ### Test runners o frameworks
 
@@ -29,6 +29,8 @@ Necesitamos elegir herramientas de test para nuestro proyecto. Para ello será n
 
 - [AVA](https://github.com/avajs/ava): AVA es un test runner con soporte para TypeScript. Además cuenta con una biblioteca de aserciones integrada, sin embargo es una biblioteca simple. Su valoración es de 94.
 
+- [Vitest](https://vitest.dev/): Vitest es un framework compatible con Node.js. Vitest viene con una biblioteca de aserciones por lo que no es necesario instalar una. Su valoración es de 98.
+
 
 ### CLI
 
@@ -36,5 +38,5 @@ Para ejecutar los test necesitamos un CLI, sin embargo los test runners menciona
 
 ## Elección de las herramientas de test
 
-Finalmente, para mi proyecto he escogido Jest como test runner. Esto se debe a que Jest es un framework que viene con una biblioteca de aserciones, por lo que no es necesario instalar una biblioteca de aserciones externa. Además, Jest es compatible con TypeScript y tiene una valoración alta en Snyk Advisor.
+Finalmente, para mi proyecto he escogido Vitest como test runner. Esto se debe a que Vitest es un framework que viene con una biblioteca de aserciones, por lo que no es necesario instalar una biblioteca de aserciones externa. Además, Vitest es compatible con TypeScript y tiene una valoración alta en Snyk Advisor.
 
