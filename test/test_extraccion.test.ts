@@ -1,5 +1,6 @@
 import { Candidato } from "../src/candidato";
 import { GestorCandidato } from "../src/gestorCandidato";
+import { expect, describe, it } from 'vitest';
 
 describe("Extracción de datos de candidato", () => {
   it("Extracción completa de datos", () => {
