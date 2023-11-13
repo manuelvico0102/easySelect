@@ -3,15 +3,12 @@ import { Idiomas, LenguajesDeProgramacion, NivelIdioma, NivelLenguajeProgramacio
 import * as fs from 'fs';
 
 export class GestorCandidato {
-    archivo: string;
-    datos: { [clave: string]: (archivo: string) => string } = {};
 
-    constructor(filePath: string) {
-        this.archivo = filePath;
+    constructor() {
     }
 
-    extraerCandidato(): Candidato {
-        const data = fs.readFileSync(this.archivo, 'utf8');
+    extraerCandidato(archivo: string): Candidato {
+        const data = fs.readFileSync(archivo, 'utf8');
 
         const nombreCompletoMatch = data.match(/Nombre\n\n(.*)/);
         const nombreCompleto = nombreCompletoMatch ? nombreCompletoMatch[1].trim() : '';
