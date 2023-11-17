@@ -1,10 +1,16 @@
 {
     "name": "easyselect",
     "version": "0.0.1",
+    "description": "Proyecto de la asignatura IV, EasySelect",
     "dependencies": {
+        "typescript": "^5.2.2"
+    },
+    "devDependencies": {
+        "vitest": "^0.34.6"
     },
     "scripts": {
         "check": "tsc --noEmit src/oferta.ts src/gestorCandidato.ts",
+        "test": "vitest",
         "build": "tsc",
         "start": "node dist/oferta.js"
     }

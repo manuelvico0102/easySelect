@@ -1,0 +1,133 @@
+﻿
+ANEXO II
+
+
+
+Información personal
+
+Nombre
+
+Gamez Luque, María
+Dirección
+
+[ Número, calle, código postal, localidad, país ]
+Teléfono
+
+953123456
+Fax
+
+
+Correo electrónico
+
+marialuque12@hotmail.es
+
+Nacionalidad
+
+
+
+Fecha de nacimiento
+
+[ Día, mes, año ]
+
+
+experiencia laboral
+	
+• Fechas (de – a)
+
+ [ Empezar por el más reciente e ir añadiendo aparte la misma información para cada puesto ocupado. ]
+• Nombre y dirección del empleador
+
+
+• Tipo de empresa o sector
+
+
+• Puesto o cargo ocupados
+
+
+• Principales actividades y responsabilidades
+
+
+
+
+Educación y formación
+
+• Fechas (de – a)
+
+[ Empezar por el más reciente e ir añadiendo aparte la misma información para cada curso realizado. ]
+• Nombre y tipo de organización que ha impartido la educación o la formación
+
+
+• Principales materias o capacidades ocupacionales tratadas
+
+
+• Título de la cualificación obtenida
+
+
+• (Si procede) Nivel alcanzado en la clasificación nacional
+
+
+
+
+Capacidades y aptitudes personales
+Adquiridas a lo largo de la vida y la carrera educativa y profesional, pero no necesariamente avaladas por certificados y diplomas oficiales.
+
+Lengua materna
+
+
+
+otros idiomas
+
+
+
+
+• Lectura
+
+
+• Escritura
+
+
+• Expresión oral
+
+
+
+Capacidades y aptitudes sociales
+Vivir y trabajar con otras personas, en entornos multiculturales, en puestos donde la comunicación es importante y en situaciones donde el trabajo en equipo resulta esencial (por ejemplo, cultura y deportes), etc.
+
+[ Describirlas e indicar dónde se adquirieron. ]
+
+Capacidades y aptitudes organizativas
+Por ejemplo, coordinación y administración de personas, proyectos, presupuestos; en el trabajo, en labores de voluntariado (por ejemplo, cultura y deportes), en el hogar, etc.
+
+[ Describirlas e indicar dónde se adquirieron. ]
+
+Capacidades y aptitudes técnicas
+Con ordenadores, tipos específicos de equipos, maquinaria, etc.
+
+Python: avanzado
+Ruby: principiante
+C++: avanzado
+JavaScript: intermedio
+
+Capacidades y aptitudes artísticas
+Música, escritura, diseño, etc.
+
+[ Describirlas e indicar dónde se adquirieron. ]
+
+Otras capacidades y aptitudes
+Que no se hayan nombrado anteriormente.
+
+[ Describirlas e indicar dónde se adquirieron. ]
+
+Permiso(s) de conducción
+
+
+
+Información adicional
+
+[ Introducir aquí cualquier información que se considere importante, como personas de contacto, referencias, etc. ]
+
+
+Anexos
+
+[ Enumerar los documentos anexos. ]
+
