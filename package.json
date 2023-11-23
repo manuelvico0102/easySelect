@@ -10,7 +10,7 @@
     },
     "scripts": {
         "check": "tsc --noEmit src/oferta.ts src/gestorCandidato.ts",
-        "test": "vitest",
+        "test": "vitest --no-watch",
         "build": "tsc",
         "start": "node dist/oferta.js"
     }
