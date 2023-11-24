@@ -1,8 +1,7 @@
-FROM node:21-alpine3.18
+FROM node:21-alpine
 
-LABEL maintainer="manuelvico0102@correo.ugr.es"
-
-LABEL version="5.0.1"
+LABEL maintainer="manuelvico0102@correo.ugr.es" \
+      version="5.0.1"
 
 USER node
 
