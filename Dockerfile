@@ -3,14 +3,14 @@ FROM node:21-alpine
 LABEL maintainer="manuelvico0102@correo.ugr.es" \
       version="5.0.1"
 
-USER node
-
-WORKDIR /home/node
+WORKDIR /app/test
 
 COPY package.json package-lock.json ./
 
+RUN chown -R node:node /app
+
+USER node
+
 RUN npm ci
 
-WORKDIR /app/test
-
-ENTRYPOINT ["npm", "run", "test"] 
+ENTRYPOINT ["npm", "run", "test"]
