@@ -5,9 +5,9 @@ LABEL maintainer="manuelvico0102@correo.ugr.es" \
 
 WORKDIR /app/test
 
-COPY package.json package-lock.json ./
-
 RUN chown -R node:node /app
+
+COPY package.json package-lock.json ./
 
 USER node
 
