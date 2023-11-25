@@ -15,13 +15,13 @@ Para elegir la imagen base para el contenedor de nuestro proyecto tendremos que 
 Tenemos diferente opciones de imágenes para mi proyecto, por lo que de las opciones que tenemos vamos a ver las que actualmente estan actualizadas y me parecen más interesantes:
 
 
-* [node](https://hub.docker.com/_/node): versión oficial de node en docker hub basada en debian, descartada por su tamaño, ya que su versión de latest ocupa 1.1GB instalada.
+* [node](https://hub.docker.com/_/node): versión oficial de node en docker hub basada en debian, descartada por su tamaño, ya que su versión de latest ocupa 1.1GB instalada. Última actualización 23-nov. 
 
-* [node:alpine](https://hub.docker.com/_/node): variante de la versión oficial de node en docker hub basada en alpine, su tamaño es de 142MB instalada.
+* [node:alpine](https://hub.docker.com/_/node): variante de la versión oficial de node en docker hub basada en alpine, su tamaño es de 142MB instalada. Última actualización 23-nov.
 
-* [bitnami/node](https://hub.docker.com/r/bitnami/node): imagen de node basada en debian, su tamaño es de 821MB instalada en su version latest.
+* [bitnami/node](https://hub.docker.com/r/bitnami/node): imagen de node basada en debian, su tamaño es de 821MB instalada en su version latest. 23-nov.
 
-* [cimg/node](https://hub.docker.com/r/cimg/node): imagen de node basada en debian, su tamaño es de 1.32GB instalada por lo que se descarta inmediatamente.
+* [cimg/node](https://hub.docker.com/r/cimg/node): imagen de node basada en debian, su tamaño es de 1.32GB instalada por lo que se descarta inmediatamente. Última actualización 22-nov.
 
 ## Decisión final
 
