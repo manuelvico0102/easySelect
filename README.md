@@ -30,6 +30,22 @@ hacer de la siguiente manera:
 npm run test
 ```
 
+### Contenedor de test
+
+Podemos construir la imagen del contenedor de la siguiente manera:
+
+```bash
+docker build -t manuelvico0102/easyselect .
+```
+
+Y ejecutamos el contenedor de la siguiente manera:
+
+```bash
+docker run  -tv `pwd`:/app/test manuelvico0102/easyselect
+```
+
+También podemos usar la imagen que se encuentra en [Docker Hub](https://hub.docker.com/r/manuelvico0102/easyselect)
+
 ## Información adicional
 
 [Historias de usuario](./docs/historias_usuario.md)
