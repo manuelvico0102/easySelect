@@ -17,7 +17,7 @@ Tenemos diferente opciones de imágenes para mi proyecto, por lo que de las opci
 
 * [node](https://hub.docker.com/_/node): versión oficial de node en docker hub basada en debian, descartada por su tamaño, ya que su versión de latest ocupa 1.1GB instalada. Última actualización 23-nov. 
 
-* [node:alpine](https://hub.docker.com/_/node): variante de la versión oficial de node en docker hub basada en alpine, su tamaño es de 142MB instalada. Última actualización 23-nov.
+* [node:alpine](https://github.com/nodejs/docker-node/blob/ed83529ea65cfbeadda161ee501b4cf83444aa2d/21/alpine3.18/Dockerfile): variante de la versión oficial de node en docker hub basada en alpine, su tamaño es de 142MB instalada. Última actualización 23-nov.
 
 * [bitnami/node](https://hub.docker.com/r/bitnami/node): imagen de node basada en debian, su tamaño es de 821MB instalada en su version latest. 23-nov.
 
