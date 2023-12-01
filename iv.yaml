@@ -4,3 +4,7 @@ automatizar:
   fichero: package.json
   orden: npm run
 test: test/test_extraccion.test.ts
+CI: 
+  - .github/workflows/node.yml
+  - .travis.yml
+  
