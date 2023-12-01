@@ -1,11 +1,9 @@
-language: node_js
+language:
+  - minimal
 
-services:
-  - docker
+install:
+  - docker pull manuelvico0102/easyselect
+  - docker images
 
-before_script:
-  - docker pull manuelvico0102/easyselect:latest
-
-script:
-  - docker build -t manuelvico0102/easyselect .
-  - docker run  -tv `pwd`:/app/test manuelvico0102/easyselect
+script: 
+  - docker run -t -v  $TRAVIS_BUILD_DIR:/test manuelvico0102/easyselect
