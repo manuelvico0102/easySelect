@@ -1,9 +1,11 @@
 language:
   - minimal
 
+services:
+  - docker
+
 install:
   - docker pull manuelvico0102/easyselect
 
 script: 
-  - docker run -t -v $TRAVIS_BUILD_DIR:/test manuelvico0102/easyselect npm ci
-  - docker run -t -v  $TRAVIS_BUILD_DIR:/test manuelvico0102/easyselect npm run test
+  - docker run -v $(pwd):/app/test manuelvico0102/easyselect
