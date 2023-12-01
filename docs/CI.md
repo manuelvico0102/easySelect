@@ -25,6 +25,11 @@ Tenemos diferentes opciones de CI para nuestro proyecto, por lo que de las opcio
 * [Jenkins](https://www.jenkins.io/): es compatible con Github. Además nos permite un entorno de ejecucción de imagenes docker. Es gratuito y de código abierto.
 
 ## Elección
+
 De las opciones mencionadas, se ha descartado CircleCi para evitar la opción más básica, Buddy por no ser gratuito y Jenkins por problemas de configuración. Por lo que se ha elegido Travis CI y GitHub Actions.
+
+## Justificación de versiones
+
+En GitHub Actions se van a probar las versiones de Node 14, 16 y 18 ya que estas son versiones LTS de Node. En travis CI se descarga la última versión de la imagen base por lo que se probará la que tiene, siendo esta la versión de desarrollo (21) de Node.
 
 
