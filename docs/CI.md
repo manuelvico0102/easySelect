@@ -30,6 +30,6 @@ De las opciones mencionadas, se ha descartado CircleCi para evitar la opción m�
 
 ## Justificación de versiones
 
-En GitHub Actions se van a probar las versiones de Node 14, 16 y 18 ya que estas son versiones LTS de Node. En travis CI se descarga la última versión de la imagen base por lo que se probará la que tiene, siendo esta la versión de desarrollo (21) de Node.
+En GitHub Actions se van a probar las versiones de Node 16, 18 y 20 ya que estas son versiones LTS de Node. En travis CI se descarga la última versión de la imagen base por lo que se probará la que tiene, siendo esta la versión de desarrollo (21) de Node.
 
 
