@@ -62,3 +62,5 @@ También podemos usar la imagen que se encuentra en [Docker Hub](https://hub.doc
 
 [Herramientas de Test](./docs/herramientas_test.md)
 
+[Sistemas de integración continua](./docs/CI.md)
+
