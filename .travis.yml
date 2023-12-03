@@ -1,0 +1,11 @@
+language:
+  - minimal
+
+services:
+  - docker
+
+install:
+  - docker pull manuelvico0102/easyselect
+
+script: 
+  - docker run -v $(pwd):/app/test manuelvico0102/easyselect
