@@ -7,4 +7,6 @@ test: test/test_extraccion.test.ts
 CI: 
   - .github/workflows/node.yml
   - .travis.yml
+configuracion: src/utils/configuracion.ts
+```
   
