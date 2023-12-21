@@ -64,3 +64,7 @@ También podemos usar la imagen que se encuentra en [Docker Hub](https://hub.doc
 
 [Sistemas de integración continua](./docs/CI.md)
 
+[Elección de la biblioteca de logs](./docs/eleccion_logger.md)
+
+[Sistema de configuración](./docs/sistema_configuracion.md)
+
