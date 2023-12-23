@@ -16,7 +16,7 @@
     },
     "scripts": {
         "check": "tsc --noEmit src/oferta.ts src/gestorCandidato.ts",
-        "test": "jest",
+        "test": "LOG_LEVEL=debug LOG_FILE_PATH=./logs.log jest",
         "build": "tsc",
         "start": "node dist/oferta.js"
     }
