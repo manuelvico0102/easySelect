@@ -8,5 +8,4 @@ CI:
   - .github/workflows/node.yml
   - .travis.yml
 configuracion: src/utils/configuracion.ts
-```
   
