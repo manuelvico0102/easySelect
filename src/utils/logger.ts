@@ -1,13 +1,20 @@
 import pino from 'pino';
 import { Configuracion } from './configuracion';
+import * as fs from 'fs';
+
 
 export class Logger {
     private logger: pino.Logger;
 
     constructor(configuracion: Configuracion) {
-        this.logger = pino({
-            level: configuracion.LogLevel,
-        }, pino.destination(configuracion.LogFilePath));
+      const streams = [
+        {level: configuracion.get('LOG_LEVEL'), stream: process.stdout},
+        {level: configuracion.get('LOG_LEVEL'), stream: fs.createWriteStream('logs.log', {flags: 'a'})},
+      ]
+
+      this.logger = pino({
+          level: configuracion.get('LOG_LEVEL'),
+      }, pino.multistream(streams));
     }
 
     public info(message: string): void {
