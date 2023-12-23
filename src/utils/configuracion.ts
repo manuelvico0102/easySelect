@@ -1,20 +1,14 @@
 import * as dotenv from 'dotenv';
-dotenv.config();
+
+dotenv.config({ debug: true });
 
 export class Configuracion {
-    private logLevel: string;
-    private logFilePath: string;
+    get(clave: string): string {
+        const value = process.env[clave];
 
-    constructor() {
-        this.logLevel = process.env.LOG_LEVEL || 'info';
-        this.logFilePath = process.env.LOG_FILE_PATH || './logs.log';
-    }
-
-    get LogLevel(): string {
-        return this.logLevel;
-    }
-
-    get LogFilePath(): string {
-        return this.logFilePath;
+        if (!value) {
+            throw new Error(`La variable de entorno ${clave} no está configurada.`);
+        }
+        return value;
     }
 }
