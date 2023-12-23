@@ -9,7 +9,7 @@ export class Logger {
     constructor(configuracion: Configuracion) {
       const streams = [
         {level: configuracion.get('LOG_LEVEL'), stream: process.stdout},
-        {level: configuracion.get('LOG_LEVEL'), stream: fs.createWriteStream('logs.log', {flags: 'a'})},
+        {level: configuracion.get('LOG_LEVEL'), stream: fs.createWriteStream(configuracion.get('LOG_FILE_PATH'), {flags: 'a'})},
       ]
 
       this.logger = pino({
