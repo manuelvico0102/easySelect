@@ -3,9 +3,9 @@ import { Idiomas, LenguajesDeProgramacion, NivelIdioma, NivelLenguajeProgramacio
 import * as fs from 'fs';
 import { loggerConfigurado } from './utils/logger';
 
-export class GestorCandidato {
-    private logger : any = loggerConfigurado.logger;
+const logger = loggerConfigurado.logger;
 
+export class GestorCandidato {
     constructor() { 
     }
 
@@ -67,7 +67,7 @@ export class GestorCandidato {
             idiomasNormalizados[idioma] = this.elegirNivelIdioma(lectura, escritura, oral);
         }
         
-        this.logger.debug(`Idiomas extraidos: ${JSON.stringify(idiomasNormalizados)}`);
+        logger.debug(`Idiomas extraidos: ${JSON.stringify(idiomasNormalizados)}`);
         return idiomasNormalizados;
     }
 
@@ -104,7 +104,7 @@ export class GestorCandidato {
             lenguajesDeProgramacion[lenguaje] = nivel;
         }
         
-        this.logger.debug(`Lenguajes de programacion extraidos: ${JSON.stringify(lenguajesDeProgramacion)}`);
+        logger.debug(`Lenguajes de programacion extraidos: ${JSON.stringify(lenguajesDeProgramacion)}`);
         return lenguajesDeProgramacion;
     }
     
