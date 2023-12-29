@@ -1,5 +1,8 @@
 
 import type {NivelIdioma, NivelLenguajeProgramacion, Idiomas, LenguajesDeProgramacion } from './types';
+import { loggerConfigurado } from './utils/logger';
+
+const logger = loggerConfigurado.logger;
 
 export class Candidato {
     private nombre: string;
@@ -16,7 +19,7 @@ export class Candidato {
       correoElectronico: string,
       telefono: string,
       idiomas: Idiomas,
-      lenguajesDeProgramacion: LenguajesDeProgramacion) 
+      lenguajesDeProgramacion: LenguajesDeProgramacion)
       {
       this.nombre = nombre;
       this.apellidos = apellidos;
@@ -24,5 +27,6 @@ export class Candidato {
       this.telefono = telefono;
       this.idiomas = idiomas;
       this.lenguajesDeProgramacion = lenguajesDeProgramacion;
+      logger.info(`Candidato creado: ${this.nombre} ${this.apellidos}`);
     }
 }

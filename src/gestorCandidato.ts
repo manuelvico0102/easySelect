@@ -1,10 +1,12 @@
 import { Candidato } from "./candidato";
 import { Idiomas, LenguajesDeProgramacion, NivelIdioma, NivelLenguajeProgramacion } from "./types";
 import * as fs from 'fs';
+import { loggerConfigurado } from './utils/logger';
+
+const logger = loggerConfigurado.logger;
 
 export class GestorCandidato {
-
-    constructor() {
+    constructor() { 
     }
 
     extraerCandidato(archivo: string): Candidato {
@@ -65,6 +67,7 @@ export class GestorCandidato {
             idiomasNormalizados[idioma] = this.elegirNivelIdioma(lectura, escritura, oral);
         }
         
+        logger.debug(`Idiomas extraidos: ${JSON.stringify(idiomasNormalizados)}`);
         return idiomasNormalizados;
     }
 
@@ -101,6 +104,7 @@ export class GestorCandidato {
             lenguajesDeProgramacion[lenguaje] = nivel;
         }
         
+        logger.debug(`Lenguajes de programacion extraidos: ${JSON.stringify(lenguajesDeProgramacion)}`);
         return lenguajesDeProgramacion;
     }
     
