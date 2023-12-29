@@ -14,11 +14,13 @@ Para elegir una biblioteca de logs para nuestro proyecto tendremos que tener en 
 
 Existen diferentes bibliotecas de logs que podemos utilizar con Node.js, entre los que se encuentran: Winston, Pino y Log4js.
 
-- [Winston](https://github.com/winstonjs/winston): Winston es una biblioteca de logs que permite personalizar la salida de los logs y es compatible con Node.js. Winston tiene una puntuación de 92 en Snyk Advisor.
+- [Winston](https://github.com/winstonjs/winston): Winston es una biblioteca de logs que permite personalizar la salida de los logs y es compatible con Node.js y TypeScript. Winston tiene una puntuación de 92 en Snyk Advisor.
 
-- [Pino](https://github.com/pinojs/pino): Pino es una biblioteca de logs que permite personalizar la salida de los logs y es compatible con Node.js. Pino tiene una puntuación de 98 en Snyk Advisor.
- 
-- [log4js](https://github.com/log4js-node/log4js-node): log4js es una biblioteca de logs que permite personalizar la salida de los logs y es compatible con Node.js. log4js tiene una puntuación de 82 en Snyk Advisor.
+- [Pino](https://github.com/pinojs/pino): Pino es una biblioteca de logs que permite personalizar la salida de los logs y es compatible con Node.js y TypeScript. Pino tiene una puntuación de 98 en Snyk Advisor. El formato de salida pude ser JSON o formato plano.
+    
+- [log4js](https://github.com/log4js-node/log4js-node): log4js es una biblioteca de logs que permite personalizar la salida de los logs y es compatible con Node.js. log4js tiene una puntuación de 82 en Snyk Advisor. Diferentes tipos de formatos de logs.
+
+Haay otros logs específicos para TypeScript como [ts-log](https://www.npmjs.com/package/ts-log) y [typescript-logging](https://www.npmjs.com/package/typescript-logging) y [missionlog](https://www.npmjs.com/package/missionlog). Sin embargo, como tenían una muy baja puntuación en Snyk Advisor no las he tenido en cuenta.
 
 ## Elección de la biblioteca de logs
 
